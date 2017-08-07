@@ -2,10 +2,20 @@
 .nav-links {
     list-style-type: none;
     display: inline-block;
+    overflow: hidden;
+    position: relative;
+    left: 10px;
+}
+ul.nav-links {
+    display: inline-block;
+    width: 90%;
+    bottom: 70px;
 }
 
 li {
     float: right;
+    display: inline-block;
+    padding: 10px;
 }
 
 .main {
@@ -22,4 +32,8 @@ li {
 
 footer {
     clear: both;
+}
+
+img {
+    margin: 0 auto;
 }
