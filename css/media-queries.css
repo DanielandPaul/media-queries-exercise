@@ -15,15 +15,51 @@
 
      h1 {
         text-align: center;
-        display: inline-block;
+        /*display: inline-block;*/
+         float: none;
+         width: 100%;
     }
 
     .nav-links li {
         background-color:gray;
         text-align: center;
         clear: left;
+        width: 100%;
+        margin: 10px;
 
     }
+
+    ul.nav-links {
+        display: block;
+        float: none;
+        margin-left: -40px;
+        border: 1px solid white;
+    }
+
+    body {
+        /*width: 50%;*/
+        max-width: 768px;
+    }
+
+    img {
+        max-width: 339px;
+        max-height: 224px;
+        margin: 10px;
+    }
+
+    #main {
+        float: none;
+        width: 100%;
+
+    }
+
+    .sub-section {
+        float: none;
+        width: 90%;
+    }
+
+
+
 
 
 
