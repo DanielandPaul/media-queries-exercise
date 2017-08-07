@@ -13,16 +13,19 @@
         text-decoration: none;
     }
 
-    h1 {
+     h1 {
         text-align: center;
         display: inline-block;
     }
 
-    .nav-links {
+    .nav-links li {
         background-color:gray;
         text-align: center;
         clear: left;
+
     }
+
+
 
 }
 
