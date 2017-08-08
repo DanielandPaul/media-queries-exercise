@@ -1,9 +1,13 @@
 
-/* Small devices (tablets, 768px and up) */
+
 
 body {
     max-width: 900px;
     margin: 0 auto;
+}
+
+div.alert-info {
+    display: none;
 }
 
 
@@ -34,6 +38,7 @@ li {
     float: right;
     width: 40%;
     padding: 20px;
+    font-style: italic;
 }
 
 footer {
@@ -44,6 +49,8 @@ footer {
     margin: 0 auto;
     clear: both;
 }
+
+/* Small devices (tablets, 768px and up) */
 @media screen and (max-width:768px) {
     .alert-info {
         background-color: #8ce0ff;
@@ -102,10 +109,13 @@ footer {
         float: none;
         width: auto;
         display: block;
-        font-style: italic;
     }
 
     nav ul {
+        display: block;
+    }
+
+    div.alert-info {
         display: block;
     }
 
