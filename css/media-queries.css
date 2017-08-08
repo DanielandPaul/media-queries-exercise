@@ -23,9 +23,9 @@
     .nav-links li {
         background-color:gray;
         text-align: center;
-        clear: left;
-        width: 100%;
-        margin: 10px;
+        width: auto;
+        margin-bottom: 10px;
+        display: block;
 
     }
 
@@ -49,13 +49,15 @@
 
     #main {
         float: none;
-        width: 100%;
+        width: auto;
 
     }
 
-    .sub-section {
+    section.sub-section {
         float: none;
-        width: 90%;
+        width: auto;
+        display: block;
+        font-style: italic;
     }
 
 
