@@ -2,7 +2,7 @@
 
 
 body {
-    max-width: 900px;
+    /*max-width: 900px;*/
     margin: 0 auto;
 }
 
@@ -30,13 +30,13 @@ li {
 
 .main {
     float: left;
-    width: 50%;
+    /*width: 50%;*/
     padding: 20px;
 }
 
 .sub-section {
     float: right;
-    width: 40%;
+    /*width: 40%;*/
     padding: 20px;
     font-style: italic;
 }
@@ -57,17 +57,17 @@ footer p {
 }
 
 .facebook {
-    width: 20px;
+    /*width: 20px;*/
     height: 20px;
 }
 
 .twitter {
-    width: 20px;
+    /*width: 20px;*/
     height: 20px;
 }
 
 .instagram {
-    width: 20px;
+    /*width: 20px;*/
     height: 20px;
 }
 
@@ -95,7 +95,7 @@ footer p {
         text-align: center;
         /*display: inline-block;*/
          float: none;
-         width: 100%;
+         /*width: 100%;*/
     }
 
     .nav-links li {
@@ -116,11 +116,11 @@ footer p {
 
     body {
         /*width: 50%;*/
-        max-width: 768px;
+        /*max-width: 768px;*/
     }
 
     img {
-        max-width: 339px;
+        /*max-width: 339px;*/
         max-height: 224px;
         margin: 10px;
     }
@@ -132,7 +132,7 @@ footer p {
 
     section.sub-section {
         float: none;
-        width: auto;
+        /*width: auto;*/
         display: block;
     }
 
